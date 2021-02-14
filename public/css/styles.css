@@ -1,11 +1,10 @@
-
 body {
-  background-color: #E8ECEF;
+  background-color: #f1f1f1;
 }
 
 .centered {
-    padding-top: 200px;
-    text-align: center;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .secret-text {
@@ -13,4 +12,12 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
+}
+.btn-block {
+  background-color: #0062ff;
+  color: #fff;
+}
+.btn-block:hover {
+  background-color: #0745a8;
+  color: whitesmoke;
 }
