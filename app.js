@@ -122,6 +122,7 @@ app.get('/logout', (req, res) => {
 })
 app.get('/secrets', (req, res) => {
     User.find({ 'secret': { $ne: null } }, (err, data) => {
+         console.log(userinfo);
         if (err) {
             console.log(err)
         } else {
